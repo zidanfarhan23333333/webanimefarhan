@@ -1,5 +1,5 @@
-import AnimeList from "./components/AnimeList";
-import Header from "./components/AnimeList/Header";
+import AnimeList from "@/components/AnimeList";
+import Header from "@/components/AnimeList/Header";
 
 const Page = async () => {
   const response = await fetch(
